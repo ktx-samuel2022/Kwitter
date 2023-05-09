@@ -1,0 +1,99 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #5cf133, #7dff5a, #00ff88, #37aa0a, #009423);
+}
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgb(52, 255, 154);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#loginButton
+{
+	width: 80%;border-radius: 15px;background-color:#5cf133;
+}
+
+.sala
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;background-color: aqua;color: black;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.divMensagem
+{
+	position: fixed;
+	bottom: 0px;
+	padding:20px;
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+}
+.divMensagem label
+{
+	color: black;
+}
+.divMensagem #msg
+{
+	width: 80%;
+}
+.divMensagem button
+{
+	margin: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.selo
+{
+	width:20px;
+}
+.msg
+{
+	padding-left:5px;
+	color:grey;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT</title>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+    <button class="btn btn-danger" onclick="logout()" id="logout">LOG OUT</button>
+    <div class="container">
+        <center>
+            <h1  class="header">	
+                MPM
+                <sup>
+                    <img src="logo-whatsapp-verde-icone-ios-android-4096.png">
+                </sup>
+            </h1></center>
+            <div id="output"></div>
+
+    </div>
+
+<center>
+
+<div class="divMensagem">
+    <label >Envie a sua mensagem</label>
+    <input id="msg"  class="form-control"  placeholder="#digite aqui a sua mensagem" type="text">
+    <button class="btn btn-success" onclick="send()">Enviar</button>
+</div>
+</center>
+   <script src="kwitterPage.js"></script>
+</body>
+</html>
